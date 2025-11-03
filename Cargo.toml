@@ -1,11 +1,11 @@
 [package]
-name = "dioxus-ipc-bridge-macros"
+name = "deckyfx-dioxus-ipc-bridge-macros"
 version = "0.1.0"
 edition.workspace = true
 authors.workspace = true
 license.workspace = true
 repository.workspace = true
-description = "Proc macros for dioxus-ipc-bridge"
+description = "Proc macros for deckyfx-dioxus-ipc-bridge"
 
 [lib]
 proc-macro = true
