@@ -1,5 +1,7 @@
 # dioxus-ipc-bridge-macros
 
+> **DEPRECATED** — This repository is moving to [dx-react/ipc-bridge-macros](https://github.com/dx-react/ipc-bridge-macros). This repo will be archived once the migration is complete.
+
 [![Crates.io](https://img.shields.io/crates/v/deckyfx-dioxus-ipc-bridge-macros.svg)](https://crates.io/crates/deckyfx-dioxus-ipc-bridge-macros)
 [![License](https://img.shields.io/badge/license-MIT%2FApache--2.0-blue.svg)](LICENSE)
 
