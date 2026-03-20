@@ -2,16 +2,18 @@
 
 > **DEPRECATED** — This repository is moving to [dx-react/ipc-bridge-macros](https://github.com/dx-react/ipc-bridge-macros). This repo will be archived once the migration is complete.
 
+> **Compatibility**: Currently tested with **Dioxus 0.7.3**
+
 [![Crates.io](https://img.shields.io/crates/v/deckyfx-dioxus-ipc-bridge-macros.svg)](https://crates.io/crates/deckyfx-dioxus-ipc-bridge-macros)
 [![License](https://img.shields.io/badge/license-MIT%2FApache--2.0-blue.svg)](LICENSE)
 
-Procedural macros for [dioxus-ipc-bridge](https://github.com/deckyfx/LearningDioxus). Provides the `#[ipc_route]` attribute macro for ergonomic route handler definition.
+Procedural macros for [dioxus-ipc-bridge](https://github.com/deckyfx/dioxus-ipc-bridge). Provides the `#[ipc_route]` attribute macro for ergonomic route handler definition.
 
 ## Installation
 
 ```toml
 [dependencies]
-deckyfx-dioxus-ipc-bridge = { version = "0.1" }
+deckyfx-dioxus-ipc-bridge = "0.2"
 # Macros are re-exported via the prelude, no need to add this crate directly
 ```
 
@@ -78,7 +80,7 @@ at your option.
 
 ## Related
 
-- [dioxus-react-example](https://github.com/deckyfx/dioxus-react-example) - Complete working example app
-- [dioxus-ipc-bridge](https://github.com/deckyfx/LearningDioxus) - Core IPC bridge library
-- [dioxus-react-integration](https://github.com/deckyfx/LearningDioxus) - React container for Dioxus
-- [dioxus-react-bridge](https://github.com/deckyfx/dioxus-react-bridge) - React hooks for IPC
+- [deckyfx/dioxus-react-example](https://github.com/deckyfx/dioxus-react-example) - Complete working example app
+- [deckyfx/dioxus-ipc-bridge](https://github.com/deckyfx/dioxus-ipc-bridge) - Core IPC bridge library
+- [deckyfx/dioxus-react-integration](https://github.com/deckyfx/dioxus-react-integration) - React container for Dioxus
+- [deckyfx/dioxus-react-bridge](https://github.com/deckyfx/dioxus-react-bridge) - React hooks for IPC
